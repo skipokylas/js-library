@@ -45,8 +45,7 @@ var $ = (function () {
 	Constructor.prototype.addClass = function (className) {
 		this.each(function (item) {
 			item.classList.add(className);
-        });
-        console.log(this)
+                });
 		return this;
 	};
 
